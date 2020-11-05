@@ -50,15 +50,16 @@ app.use((err, req, res, next) => {
   res.json({
     info: {
       about: 'Hello, this is a web scrapper api scrapped from nts.com',
-      endpoints: 'we serve on this ednpoints',
-      listAllShows: '/api/v1/show',
-      filterByTag: '/api/v1/show/filter?tag={tag}',
-      latest: '/api/v1/show/latest',
-      ntsPicks: '/api/v1/show/ntsPicks',
-      guests: '/api/v1/show/guests',
-      poshIsolation: '/api/v1/show/poshIsolation',
-      schedule: '/api/v1/schedule',
-      queryDay: '/api/v1/schedule/{day}',
+      endpoints: {
+        listAllShows: '/api/v1/show',
+        filterByTag: '/api/v1/show/filter?tag={tag}',
+        latest: '/api/v1/show/latest',
+        ntsPicks: '/api/v1/show/ntsPicks',
+        guests: '/api/v1/show/guests',
+        poshIsolation: '/api/v1/show/poshIsolation',
+        schedule: '/api/v1/schedule',
+        queryDay: '/api/v1/schedule/{day}',
+      }
     },
     error: {
       message: err.message
