@@ -24,7 +24,7 @@ const scrapeSchedule = async (url) => {
     })
 
     await browser.close();
-    const data = JSON.stringify(shows)
+    const data = JSON.stringify(shows).replace(/\n/g, " ");
     await saveToJSON('schedules', data)
     return shows
 }

@@ -25,7 +25,7 @@ const createBrowser = async () => {
             data.flat()
             const title = url.toString().split('/').slice(-1)[0];
             data.flat()
-            const results = JSON.stringify(data)
+            const results = JSON.stringify(data).replace(/\n/g, " ");
             await saveToJSON(title, results)
             return data;
         } catch (e) {
