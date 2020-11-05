@@ -24,6 +24,19 @@ const scheduleRouter = require('./routes/scheduleRouter');
 //     scrapeShow(['https://www.nts.live/shows/posh-isolation', 'https://www.nts.live/latest', 'https://www.nts.live/nts-picks', 'https://www.nts.live/shows/guests'])
 // });
 
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader(
+      'Access-Control-Allow-Methods',
+      'OPTIONS, GET, POST, PUT, PATCH, DELETE',
+  );
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(200);
+  }
+  next();
+});
+
 app.use('/api/v1/show', schowRouter);
 app.use('/api/v1/schedule', scheduleRouter);
 
