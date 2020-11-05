@@ -17,6 +17,7 @@ const latest = JSON.parse(
 );
 
 exports.getAllShows = (req, res) => {
+    console.log(req.query)
     res.status(200).json({
         status: 'success',
         results: shows.length,
@@ -26,9 +27,16 @@ exports.getAllShows = (req, res) => {
     })
 }
 
-exports.getByTag = (req, res) => {
-    console.log(123)
+exports.getByType = (req, res) => {
+    const {type} = req.params
+    let data
+    data = type === 'latest' ? latest : data = type === "ntsPicks" ? ntsPicks : data = type === 'guests' ? guests : data = type === "poshIsolation" ? poshIsolation : 'Wrong query';
+
     res.status(200).json({
-        status: 'byTag',
+        status: 'success',
+        results: data.length,
+        data: {
+            data
+        }
     })
 }

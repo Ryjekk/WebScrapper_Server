@@ -8,7 +8,7 @@ router
     .get(showController.getAllShows);
 
 router
-    .route('/:tag')
-    .get(showController.getByTag)
+    .route('/:type')
+    .get(showController.getByType)
 
 module.exports = router;
