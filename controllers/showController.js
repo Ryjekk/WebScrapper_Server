@@ -17,7 +17,6 @@ const latest = JSON.parse(
 );
 
 exports.getAllShows = (req, res) => {
-    console.log(req.query)
     res.status(200).json({
         status: 'success',
         results: shows.length,
@@ -37,6 +36,18 @@ exports.getByType = (req, res) => {
         results: data.length,
         data: {
             data
+        }
+    })
+}
+
+exports.getByFilter = (req, res) => {
+    const {tag} = req.query
+    const filtered = shows.filter(el => el.tags.toLowerCase().includes(tag));
+    res.status(200).json({
+        status: 'success',
+        results: filtered.length,
+        data: {
+            filtered
         }
     })
 }

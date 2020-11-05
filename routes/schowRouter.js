@@ -8,6 +8,10 @@ router
     .get(showController.getAllShows);
 
 router
+    .route('/filter')
+    .get(showController.getByFilter)
+
+router
     .route('/:type')
     .get(showController.getByType)
 
