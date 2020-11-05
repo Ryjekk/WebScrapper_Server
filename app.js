@@ -1,5 +1,6 @@
 const express = require('express');
 const cron = require('node-cron');
+
 const app = express();
 
 const scrapeSchedule = require('./utils/scrapperSchedule');
@@ -23,8 +24,7 @@ const scheduleRouter = require('./routes/scheduleRouter');
 //     scrapeShow(['https://www.nts.live/shows/posh-isolation', 'https://www.nts.live/latest', 'https://www.nts.live/nts-picks', 'https://www.nts.live/shows/guests'])
 // });
 
-app.use('/api/v1/show', schowRouter)
-app.use('/api/v1/schedule', scheduleRouter)
+app.use('/api/v1/show', schowRouter);
+app.use('/api/v1/schedule', scheduleRouter);
 
 module.exports = app;
-

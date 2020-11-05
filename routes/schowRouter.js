@@ -4,15 +4,15 @@ const showController = require('../controllers/showController');
 const router = express.Router();
 
 router
-    .route('/')
-    .get(showController.getAllShows);
+  .route('/')
+  .get(showController.getAllShows);
 
 router
-    .route('/filter')
-    .get(showController.getByFilter)
+  .route('/filter')
+  .get(showController.getByFilter);
 
 router
-    .route('/:type')
-    .get(showController.getByType)
+  .route('/:type')
+  .get(showController.getByType);
 
 module.exports = router;
