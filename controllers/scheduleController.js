@@ -15,9 +15,14 @@ exports.getFullSchedule = (req, res) => {
 }
 
 exports.getByDay = (req, res) => {
-    console.log(123)
+    const {day} = req.params
+    const schedule = schedules.find(el => el.day.toLowerCase().includes(day));
+    console.log(schedule)
     res.status(200).json({
-        status: 'byDay',
+        status: 'success',
+        data: {
+            schedule
+        }
     })
 }
 
