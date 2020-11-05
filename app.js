@@ -27,4 +27,31 @@ const scheduleRouter = require('./routes/scheduleRouter');
 app.use('/api/v1/show', schowRouter);
 app.use('/api/v1/schedule', scheduleRouter);
 
+app.use((req, res, next) => {
+  const err = new Error('Not found');
+  next(err);
+});
+
+app.use((err, req, res, next) => {
+  res.status(err.status || 500);
+  res.json({
+    info: {
+      about: 'Hello, this is a web scrapper api scrapped from nts.com',
+      endpoints: 'we serve on this ednpoints',
+      listAllShows: '/api/v1/show',
+      filterByTag: '/api/v1/show/filter?tag={tag}',
+      latest: '/api/v1/show/latest',
+      ntsPicks: '/api/v1/show/ntsPicks',
+      guests: '/api/v1/show/guests',
+      poshIsolation: '/api/v1/show/poshIsolation',
+      schedule: '/api/v1/schedule',
+      queryDay: '/api/v1/schedule/{day}',
+    },
+    error: {
+      message: err.message
+    }
+  });
+});
+
+
 module.exports = app;
