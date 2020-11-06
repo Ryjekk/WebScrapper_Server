@@ -3,119 +3,49 @@
     "day": "TODAY",
     "shows": [
       {
-        "time": "01:02 - 02:00",
-        "artist": "IMOGEN",
-        "link": "https://www.nts.live/shows/imogen/episodes/imogen-5th-november-2020"
-      },
-      {
-        "time": "02:00 - 03:00",
-        "artist": "DANIEL AVERY (R)",
-        "link": "https://www.nts.live/shows/daniel-avery/episodes/daniel-avery-12th-august-2020"
-      },
-      {
-        "time": "03:00 - 04:00",
-        "artist": "FROM SUN CITY W/ AUSTIN MORELLO",
-        "link": "https://www.nts.live/shows/from-sun-city/episodes/from-sun-city-8th-october-2020"
-      },
-      {
-        "time": "04:00 - 06:00",
-        "artist": "NOISE IN MY HEAD (R)",
-        "link": "https://www.nts.live/shows/noise-in-my-head/episodes/noise-in-my-head-14th-august-2018"
-      },
-      {
-        "time": "06:00 - 08:00",
-        "artist": "PIPE DOWN (R)",
-        "link": "https://www.nts.live/shows/pipe-down/episodes/pipe-down-14th-march-2016"
-      },
-      {
-        "time": "08:00 - 10:00",
-        "artist": "SANPO DISCO (R)",
-        "link": "https://www.nts.live/shows/sanpo-disco/episodes/sanpo-disco-23rd-april-2017"
-      },
-      {
-        "time": "10:00 - 13:00",
-        "artist": "THE DO!! YOU!!! BREAKFAST SHOW W/ CHARLIE BONES",
-        "link": "https://www.nts.live/shows/the-do-you-breakfast-show/episodes/the-do-you-breakfast-show-5th-november-2020"
-      },
-      {
-        "time": "13:00 - 15:00",
-        "artist": "CALM ROOTS W/ ALEX RITA",
-        "link": "https://www.nts.live/shows/calm-roots/episodes/calm-roots-5th-november-2020"
-      },
-      {
-        "time": "15:00 - 16:00",
-        "artist": "AMARAAE",
-        "link": "https://www.nts.live/shows/guests/episodes/amaarae-5th-november-2020"
-      },
-      {
-        "time": "16:00 - 18:00",
-        "artist": "ECLAIR FIFI",
-        "link": "https://www.nts.live/shows/eclair-fifi/episodes/e-clair-fifi-5th-november-2020"
-      },
-      {
-        "time": "18:00 - 19:00",
-        "artist": "DEBONAIR",
-        "link": "https://www.nts.live/shows/debonair/episodes/debonair-8th-october-2020"
-      },
-      {
-        "time": "19:00 - 20:00",
-        "artist": "THIRD CIRCLE W/ OK WILLIAMS (R)",
-        "link": "https://www.nts.live/shows/third-circle/episodes/third-circle-w-ok-williams-11th-april-2019"
-      },
-      {
-        "time": "20:00 - 21:00",
-        "artist": "RESPONSIBLY SOURCED W/ MOLINARO",
-        "link": "https://www.nts.live/shows/molinaro/episodes/molinaro-5th-november-2020"
-      },
-      {
-        "time": "21:00 - 23:30",
-        "artist": "PDA",
-        "link": "https://www.nts.live/shows/pda/episodes/pda-5th-november-2020"
-      }
-    ]
-  },
-  {
-    "day": "FRIDAY 2020-11-06",
-    "shows": [
-      {
         "time": "00:00 - 01:00",
         "artist": "PERM POLITICS",
-        "link": "https://www.nts.live/shows/chantal"
+        "link": "https://www.nts.live/shows/chantal/episodes/perm-politics-5th-november-2020"
       },
       {
         "time": "01:00 - 02:00",
         "artist": "SLOW HAND CLUTCHES",
-        "link": "https://www.nts.live/shows/slow-hand-clutches/episodes/slow-hand-clutches-9th-october-2020"
+        "link": "https://www.nts.live/shows/slow-hand-clutches"
+      },
+      {
+        "time": "02:00 - 03:00",
+        "artist": "JAMIE BURKE (R)",
+        "link": "https://www.nts.live/shows/guests/episodes/jamie-burke-21st-october-2020"
       },
       {
         "time": "03:00 - 05:00",
         "artist": "AFTER DARK W/ HELM (R)",
-        "link": "https://www.nts.live/shows/helm/episodes/helm-22nd-january-2019"
+        "link": "https://www.nts.live/shows/helm/episodes/after-dark-w-helm-7th-august-2019"
       },
       {
         "time": "05:00 - 06:00",
         "artist": "BOKEH VERSIONS (R)",
-        "link": "https://www.nts.live/shows/bokeh-versions/episodes/bokehversions-12-08-17"
+        "link": "https://www.nts.live/shows/bokeh-versions/episodes/bokeh-versions-20th-may-2017"
       },
       {
         "time": "06:00 - 07:00",
         "artist": "GEOLOGIST PRESENTS: THE O'BRIEN SYSTEM (R)",
-        "link": "https://www.nts.live/shows/geologist/episodes/geologist-presents-the-o-brien-system-23th-july-2019"
+        "link": "https://www.nts.live/shows/geologist/episodes/geologist-28th-may-2019"
       },
       {
         "time": "07:00 - 08:00",
         "artist": "FIFTH WORLD W/ IAN KIM JUDD (R)",
-        "link": "https://www.nts.live/shows/fifth-world/episodes/fifth-world-w-ian-kim-judd-3rd-january-2018"
+        "link": "https://www.nts.live/shows/fifth-world/episodes/fifth-world-27th-november-2017"
       },
       {
         "time": "08:00 - 09:00",
         "artist": "AARON ANGELL (R)",
-        "link": "https://www.nts.live/shows/aaron-angell/episodes/gardenesque-w-aaron-angell-9th-may-19"
+        "link": "https://www.nts.live/shows/aaron-angell/episodes/aaron-angel-21st-march-2020"
       },
       {
         "time": "09:00 - 10:00",
         "artist": "SACRED SPACE W/ RADHA (R)",
-        "link": "https://www.nts.live/shows/sacred-space/episodes/sacred-space-w-radha-3rd-april-2020"
+        "link": "https://www.nts.live/shows/sacred-space/episodes/sacred-space-w-radha-1st-may-2020"
       },
       {
         "time": "10:00 - 13:00",
@@ -124,13 +54,18 @@
       },
       {
         "time": "13:00 - 14:00",
-        "artist": "UNITED IDENTITIES W/ CARISTA",
+        "artist": "UNITED IDENTITIES W/ CARISTA & MAIRO NAWAZ",
         "link": "https://www.nts.live/shows/carista"
+      },
+      {
+        "time": "14:00 - 15:00",
+        "artist": "PUM PUM POWER HOUR W/ LIL C",
+        "link": "https://www.nts.live/shows/lil-c/episodes/lil-c-6th-november-2020"
       },
       {
         "time": "15:00 - 16:00",
         "artist": "OLOF DREIJER",
-        "link": "https://www.nts.live/shows/guests"
+        "link": "https://www.nts.live/shows/guests/episodes/olof-dreijer-6th-november-2020"
       },
       {
         "time": "16:00 - 17:00",
@@ -158,19 +93,9 @@
         "link": "https://www.nts.live/shows/oneman/episodes/oneman-6th-november-2020"
       },
       {
-        "time": "21:00 - 22:00",
-        "artist": "FAUZIA (R)",
-        "link": "https://www.nts.live/shows/fauzia/episodes/fauzia-friday-22nd-may"
-      },
-      {
         "time": "22:00 - 23:00",
         "artist": "GAIKA",
         "link": "https://www.nts.live/shows/gaika/episodes/gaika-6th-november-2020"
-      },
-      {
-        "time": "23:00 - 00:00",
-        "artist": "THE GAZA STRIP (R)",
-        "link": "https://www.nts.live/shows/the-gaza-strip/episodes/the-gaza-strip-3rd-july"
       }
     ]
   },
